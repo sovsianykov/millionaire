@@ -1,0 +1,41 @@
+.main {
+  position: relative;
+  .up {
+    width: 396px;
+    height: 36px;
+    background: #d9d6d6;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 36px solid white;
+      border-left: 36px solid #d9d6d6;
+      width: 0;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-left: 36px solid white;
+      border-bottom: 36px solid #d9d6d6;
+      width: 0;
+    }
+  }
+  .down {
+    @extend .up;
+    transform: rotate(180deg);
+
+  }
+  .content {
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    width: 396px;
+    height: 100%;
+    text-align: center;
+  }
+}
+
