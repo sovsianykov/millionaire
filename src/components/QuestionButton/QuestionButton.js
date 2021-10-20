@@ -7,7 +7,7 @@ const QuestionButton = () => {
           <div className={styles.line}/>
           <div className={styles.main}>
               <div className={styles.up}/>
-              <h3 className={styles.content}>Some Content</h3>
+              <div className={styles.content}><span>A</span> Some Content</div>
               <div className={styles.down}/>
           </div>
           <div className={styles.line_right}/>
