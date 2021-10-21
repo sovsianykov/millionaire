@@ -9,7 +9,7 @@ const Question = () => {
 
 
     const classNames = useMemo(() => cn({
-        [styles.question_regular]:true,
+        [styles.question_inactive]:true,
         [styles.question_selected]: selected
     }),[selected])
 

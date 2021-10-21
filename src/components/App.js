@@ -1,12 +1,14 @@
 import React from "react";
-import QuestionButton from "./QuestionButton/QuestionButton";
 import Question from "./Question/Question";
+import Layout from "./Layout/Layout";
+import GameStart from "../pages/GameStart/GameStart";
 
 function App() {
   return (
     <div>
-       <QuestionButton/>
-        <Question/>
+        <Layout>
+            <GameStart/>
+        </Layout>
     </div>
   );
 }
