@@ -1,6 +1,7 @@
 
 .container {
   background-color: #fff;
+  width: 100%;
   position: relative;
 
 }
@@ -13,17 +14,26 @@
 }
 .leftSide {
   left: 0;
-  z-index: 2;
+  z-index: 5;
   position: absolute;
   width: 50%;
   height: 100%;
-  border: 1px solid black;
+  .handImgWrapper {
+    max-width: 624px;
+    max-height: 367px ;
+    overflow: hidden;
+    margin: 29% auto;
+    .handImg {
+      display: block;
+      width: 100%;
+    }
+  }
 }
 .rightSide {
-  z-index: 2;
+  z-index: 5;
+  background: transparent;
   left: 50%;
   position: absolute;
   width: 50%;
   height: 100%;
-  border: 1px solid black;
 }
