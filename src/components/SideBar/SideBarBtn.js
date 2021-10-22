@@ -3,8 +3,7 @@ import styles from "./SideBarBtn.module.scss";
 import cn from "classnames";
 
 
-const SideBarBtn = ({wining,children}) => {
-    const [passed,setPassed] = useState(false)
+const SideBarBtn = ({wining,children,passed}) => {
 
     const classNames = useMemo(() => cn({
         [styles.moneyWin_inactive]:true,
@@ -25,7 +24,7 @@ const SideBarBtn = ({wining,children}) => {
         [styles.money_content_title]:true,
         [styles.money_content_title_wining]: wining,
         [styles.money_content_title_passed]: passed
-    }),[passed])
+    }),[passed,wining])
 
     return (
         <div className={styles.moneyWin}>

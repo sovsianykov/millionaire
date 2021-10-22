@@ -10,15 +10,15 @@ import {useDispatch, useSelector} from "react-redux";
 const Game = () => {
     // console.log(question)
     const dispatch = useDispatch()
-    const { questions, turn } = useSelector(state => state.answerReducer)
-    console.log(questions, turn)
+    const { question, turn } = useSelector(state => state.answerReducer)
+    console.log(question, turn)
     return (
         <div className={styles.game}>
             <main className={styles.main}>
-                <h1 className={styles.questionTitle}>{questions[turn].question}</h1>
-                <AnswersBlock question={questions[turn].content} correct={questions[turn].correct}/>
+                <h1 className={styles.questionTitle}>{question.question}</h1>
+                <AnswersBlock question={question.content} correct={question.correct}/>
             </main>
-            <SideBar/>
+            <SideBar turn={turn}/>
         </div>
     );
 };

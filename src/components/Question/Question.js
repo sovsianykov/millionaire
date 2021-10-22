@@ -2,20 +2,26 @@ import React, {useCallback, useMemo, useState} from 'react';
 import styles from "./Question.module.scss";
 import cn from "classnames";
 import QuestionContent from "./QuestionContent";
+import {useDispatch} from "react-redux";
+import {checkoutAnswer} from "../../redux/actions";
 
-const Question = ({title,letter,onClick,id}) => {
-    console.log(title)
-    const [selected, setSelected] = useState(false)
-    const [correct , setCorrect] = useState(false)
+const Question = ({title,letter,onClick,id,correct}) => {
+    const dispatch = useDispatch()
+    const [isCorrect , setIsCorrect] = useState(0)
 
 
     const classNames = useMemo(() => cn({
         [styles.question_inactive]:true,
-        [styles.question_selected]: selected
-    }),[selected])
+        [styles.question_correct]: isCorrect === 1
+    }),[isCorrect])
 
      const onClickHandler = useCallback(() =>{
          onClick(id)
+         if (id === correct) {
+             setIsCorrect(1)
+         }
+         setTimeout(() =>{dispatch(checkoutAnswer(id))},1000)
+
      },[id])
 
     return (

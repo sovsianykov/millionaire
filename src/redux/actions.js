@@ -1,7 +1,7 @@
 import { CHECK_THE_ANSWER } from "./constants";
 
 
-function checkAnswer(i) {
+ export const checkoutAnswer = (i) => {
 
     return dispatch  =>   {
         dispatch({
