@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Inter";
-  src: url('http://fonts.cdnfonts.com/css/inter') ;/* IE8+, знак ? позволяет обойти баг в обработчике значения src */
 
-}
 body {
   margin: 0;
   padding: 0;
