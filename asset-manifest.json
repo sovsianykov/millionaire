@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/millionaire/static/css/main.0eb66e58.chunk.css",
+    "main.js": "/millionaire/static/js/main.b0fc4ada.chunk.js",
+    "main.js.map": "/millionaire/static/js/main.b0fc4ada.chunk.js.map",
+    "runtime-main.js": "/millionaire/static/js/runtime-main.f491b3c8.js",
+    "runtime-main.js.map": "/millionaire/static/js/runtime-main.f491b3c8.js.map",
+    "static/js/2.c5098c32.chunk.js": "/millionaire/static/js/2.c5098c32.chunk.js",
+    "static/js/2.c5098c32.chunk.js.map": "/millionaire/static/js/2.c5098c32.chunk.js.map",
+    "index.html": "/millionaire/index.html",
+    "static/css/main.0eb66e58.chunk.css.map": "/millionaire/static/css/main.0eb66e58.chunk.css.map",
+    "static/js/2.c5098c32.chunk.js.LICENSE.txt": "/millionaire/static/js/2.c5098c32.chunk.js.LICENSE.txt",
+    "static/media/hand1.db4d6f4e.png": "/millionaire/static/media/hand1.db4d6f4e.png",
+    "static/media/winnerClaps.fcf574ff.mp3": "/millionaire/static/media/winnerClaps.fcf574ff.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f491b3c8.js",
+    "static/js/2.c5098c32.chunk.js",
+    "static/css/main.0eb66e58.chunk.css",
+    "static/js/main.b0fc4ada.chunk.js"
+  ]
+}
