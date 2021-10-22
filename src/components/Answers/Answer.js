@@ -1,4 +1,4 @@
-import React, {memo, useCallback, useEffect, useMemo, useState} from "react";
+import React, {memo, useCallback, useMemo, useState} from "react";
 import styles from "./Answer.module.scss";
 import cn from "classnames";
 import AnswerContent from "./AnswerContent";
@@ -21,18 +21,11 @@ const Answer = ({ title, letter, onClick, id, correct }) => {
     [id, correct, active]
   );
 
-  useEffect(() => {
-    classNames = cn({
-      [styles.question_wrong]: id !== correct,
-      [styles.question_correct]: id === correct && active,
-    });
-  }, [active]);
-
   const onClickHandler = useCallback(() => {
 
     onClick(id);
     setActive(true);
-  }, [id, setActive]);
+  }, [id, setActive,onClick]);
 
   return (
     <div className={styles.question}>
