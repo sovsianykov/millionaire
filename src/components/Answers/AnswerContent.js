@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./Question.module.scss";
+import styles from "./Answer.module.scss";
 
 
-const QuestionContent = ({title,letter}) => {
+const AnswerContent = ({title,letter}) => {
     return (
         <div className={styles.question_content}>
            <div className={styles.question_content_letter}>{letter}</div>
@@ -11,4 +11,4 @@ const QuestionContent = ({title,letter}) => {
     );
 };
 
-export default QuestionContent;
+export default AnswerContent;

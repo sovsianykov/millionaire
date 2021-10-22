@@ -49,12 +49,18 @@
     background: url("../../assets/buttonCorrect.png");
     width: 372px;
     height: 100%;
+    &:hover {
+      background: url("../../assets/buttonCorrect.png");
+    }
   }
-  &_wrons {
+  &_wrong {
     margin-left: 17px;
     background: url("../../assets/buttonWrong.png");
     width: 372px;
     height: 100%;
+    &:hover {
+      background: url("../../assets/buttonWrong.png");
+    }
   }
 }
 .question_content {

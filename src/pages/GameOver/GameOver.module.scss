@@ -35,6 +35,16 @@
       font-size: 56px;
       font-weight: 600;
       margin-bottom: 64px;
+      opacity: 0;
+      animation: animated1  forwards 1s ease-in;
     }
+  }
+}
+@keyframes animated1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

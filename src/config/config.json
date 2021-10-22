@@ -4,42 +4,22 @@
       "questions": [
         {
           "question": "In what children's game are participants chased by someone designated \"It\"?",
-          "content": [
-            "Tag",
-            "Simon Says",
-            "Charades",
-            "Hopscotch"
-          ],
+          "content": ["Tag", "Simon Says", "Charades", "Hopscotch"],
           "correct": 0
         },
         {
           "question": "On a radio, stations are changed by using what control?",
-          "content": [
-            "Tuning",
-            "Volume",
-            "Bass",
-            "Treble"
-          ],
+          "content": ["Tuning", "Volume", "Bass", "Treble"],
           "correct": 0
         },
         {
           "question": "Which material is most dense?",
-          "content": [
-            "Silver",
-            "Styrofoam",
-            "Butter",
-            "Gold"
-          ],
+          "content": ["Silver", "Styrofoam", "Butter", "Gold"],
           "correct": 3
         },
         {
           "question": "Which state in the United States is largest by area?",
-          "content": [
-            "Alaska",
-            "California",
-            "Texas",
-            "Hawaii"
-          ],
+          "content": ["Alaska", "California", "Texas", "Hawaii"],
           "correct": 0
         },
         {
@@ -84,72 +64,37 @@
         },
         {
           "correct": 1,
-          "content": [
-            "1968",
-            "1929",
-            "1901",
-            "1965"
-          ],
+          "content": ["1968", "1929", "1901", "1965"],
           "question": "Oscar Awards were instituted in"
         },
         {
           "correct": 2,
-          "content": [
-            "1998",
-            "1989",
-            "1979",
-            "1800"
-          ],
+          "content": ["1998", "1989", "1979", "1800"],
           "question": "When did Margaret Thatcher became the first female Prime Minister of Britain?"
         },
         {
           "correct": 2,
-          "content": [
-            "15th April",
-            "12th December",
-            "1st May",
-            "1st August"
-          ],
+          "content": ["15th April", "12th December", "1st May", "1st August"],
           "question": "When is the International Workers' Day?"
         },
         {
           "correct": 2,
-          "content": [
-            "1962",
-            "1963",
-            "1964",
-            "1965"
-          ],
+          "content": ["1962", "1963", "1964", "1965"],
           "question": "When did China test their first atomic device?"
         },
         {
           "correct": 3,
-          "content": [
-            "1904",
-            "1905",
-            "1908",
-            "1909"
-          ],
+          "content": ["1904", "1905", "1908", "1909"],
           "question": "When did Commander Robert Peary discover the North Pole?"
         },
         {
           "correct": 0,
-          "content": [
-            "819/sq. km",
-            "602/sq. km",
-            "415/sq. km",
-            "500/sq. km"
-          ],
+          "content": ["819/sq. km", "602/sq. km", "415/sq. km", "500/sq. km"],
           "question": "What is the population density of Kerala?"
         },
         {
           "correct": 1,
-          "content": [
-            "4 km",
-            "25 km",
-            "500 m to 9 km",
-            "150 km"
-          ],
+          "content": ["4 km", "25 km", "500 m to 9 km", "150 km"],
           "question": "What is the range of missile 'Akash'?"
         }
       ]
@@ -168,42 +113,22 @@
         },
         {
           "question": "Which part of the body are you most likely to \"stub\"?",
-          "content": [
-            "Toe",
-            "Knee",
-            "Elbow",
-            "Brain"
-          ],
+          "content": ["Toe", "Knee", "Elbow", "Brain"],
           "correct": 0
         },
         {
           "question": "Which country is largest by area?",
-          "content": [
-            "UK",
-            "USA",
-            "Russia",
-            "China"
-          ],
+          "content": ["UK", "USA", "Russia", "China"],
           "correct": 2
         },
         {
           "question": "What does the \"F\" stand for in FBI?",
-          "content": [
-            "Foreign",
-            "Federal",
-            "Flappy",
-            "Face"
-          ],
+          "content": ["Foreign", "Federal", "Flappy", "Face"],
           "correct": 1
         },
         {
           "question": "The US declared war on which country after the bombing of Pearl Harbor?",
-          "content": [
-            "Japan",
-            "Russia",
-            "Germany",
-            "China"
-          ],
+          "content": ["Japan", "Russia", "Germany", "China"],
           "correct": 0
         },
         {
@@ -238,12 +163,7 @@
         },
         {
           "correct": 0,
-          "content": [
-            "Harvard",
-            "University of Washington",
-            "Yale",
-            "Oxford"
-          ],
+          "content": ["Harvard", "University of Washington", "Yale", "Oxford"],
           "question": "What was the first university in the United States"
         },
         {
@@ -268,12 +188,7 @@
         },
         {
           "correct": 0,
-          "content": [
-            "Kelvin",
-            "Celsius",
-            "Centigrade",
-            "Fahrenheit"
-          ],
+          "content": ["Kelvin", "Celsius", "Centigrade", "Fahrenheit"],
           "question": "What is the S.I. unit of temperature?"
         },
         {
@@ -298,12 +213,7 @@
         },
         {
           "correct": 0,
-          "content": [
-            "1999",
-            "1989",
-            "1979",
-            "1969"
-          ],
+          "content": ["1999", "1989", "1979", "1969"],
           "question": "When did 19 NATO members and 11 'Partners for Peace' join hands for peace plan for Kosovo Crisis?"
         }
       ]
@@ -312,22 +222,12 @@
       "questions": [
         {
           "question": "An albino gorilla usually has what color fur?",
-          "content": [
-            "Brown",
-            "Black",
-            "White",
-            "Golden"
-          ],
+          "content": ["Brown", "Black", "White", "Golden"],
           "correct": 2
         },
         {
           "question": "When you enter a situation without a definite plan of action, you are said to be \"playing it by\" what?",
-          "content": [
-            "Fingertips",
-            "Ear",
-            "Nose",
-            "Mouth"
-          ],
+          "content": ["Fingertips", "Ear", "Nose", "Mouth"],
           "correct": 1
         },
         {
@@ -342,12 +242,7 @@
         },
         {
           "question": "What is the national emblem of Canada?",
-          "content": [
-            "Maple Leaf",
-            "Brown Bear",
-            "Maple Syrup",
-            "Waffle"
-          ],
+          "content": ["Maple Leaf", "Brown Bear", "Maple Syrup", "Waffle"],
           "correct": 0
         },
         {
@@ -392,12 +287,7 @@
         },
         {
           "correct": 2,
-          "content": [
-            "2000",
-            "2001",
-            "2002",
-            "2003"
-          ],
+          "content": ["2000", "2001", "2002", "2003"],
           "question": "Hamid Karzai was chosen president of Afghanistan in"
         },
         {
@@ -452,12 +342,7 @@
         },
         {
           "correct": 1,
-          "content": [
-            "Guruji",
-            "Man of Peace",
-            "Punjab Kesari",
-            "Mahamana"
-          ],
+          "content": ["Guruji", "Man of Peace", "Punjab Kesari", "Mahamana"],
           "question": "Lal Bahadur Shastri is also known as"
         }
       ]
@@ -466,12 +351,7 @@
       "questions": [
         {
           "question": "Which of the following consumer goods is the Gerber Products Co. best known for?",
-          "content": [
-            "Potato chips",
-            "Fine wines",
-            "Chewing gum",
-            "Baby Food"
-          ],
+          "content": ["Potato chips", "Fine wines", "Chewing gum", "Baby Food"],
           "correct": 3
         },
         {
@@ -546,12 +426,7 @@
         },
         {
           "correct": 0,
-          "content": [
-            "Orissa",
-            "Tamil nadu",
-            "Andhra Pradesh",
-            "Kerala"
-          ],
+          "content": ["Orissa", "Tamil nadu", "Andhra Pradesh", "Kerala"],
           "question": "Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of"
         },
         {
@@ -566,12 +441,7 @@
         },
         {
           "correct": 2,
-          "content": [
-            "1789 AD",
-            "1798 AD",
-            "1792 AD",
-            "1729 AD"
-          ],
+          "content": ["1789 AD", "1798 AD", "1792 AD", "1729 AD"],
           "question": "When did France became Republic?"
         },
         {
@@ -586,12 +456,7 @@
         },
         {
           "correct": 0,
-          "content": [
-            "coins",
-            "numbers",
-            "stamps",
-            "space"
-          ],
+          "content": ["coins", "numbers", "stamps", "space"],
           "question": "Numismatics is the study of"
         },
         {
@@ -620,52 +485,27 @@
       "questions": [
         {
           "question": "What kind of animal traditionally lives in a sty?",
-          "content": [
-            "Cow",
-            "Pig",
-            "Fox",
-            "Teenager"
-          ],
+          "content": ["Cow", "Pig", "Fox", "Teenager"],
           "correct": 1
         },
         {
           "question": "The EPA urges people to produce less waste by engaging in efforts to reduce, reuse and what?",
-          "content": [
-            "Recycle",
-            "Rewrap",
-            "Repossess",
-            "Retire"
-          ],
+          "content": ["Recycle", "Rewrap", "Repossess", "Retire"],
           "correct": 0
         },
         {
           "question": "What is the second most common gas in the air?",
-          "content": [
-            "Nitrogen",
-            "Oxygen",
-            "Water",
-            "Helium"
-          ],
+          "content": ["Nitrogen", "Oxygen", "Water", "Helium"],
           "correct": 1
         },
         {
           "question": "Which month has only 28 days (unless it's a leap year)?",
-          "content": [
-            "March",
-            "September",
-            "June",
-            "Feburary"
-          ],
+          "content": ["March", "September", "June", "Feburary"],
           "correct": 3
         },
         {
           "correct": 1,
-          "content": [
-            "give",
-            "prove",
-            "both",
-            "None of the above"
-          ],
+          "content": ["give", "prove", "both", "None of the above"],
           "question": "Pythagoras was first to ____ the universal validity of geometrical theorem."
         },
         {
@@ -710,12 +550,7 @@
         },
         {
           "correct": 1,
-          "content": [
-            "1960",
-            "1961",
-            "1962",
-            "1963"
-          ],
+          "content": ["1960", "1961", "1962", "1963"],
           "question": "When did Yuri Alekseyevich Gagaris of Russia, the first man to reach space, reach space?"
         },
         {
@@ -730,12 +565,7 @@
         },
         {
           "correct": 2,
-          "content": [
-            "energy",
-            "speed",
-            "distance",
-            "intensity"
-          ],
+          "content": ["energy", "speed", "distance", "intensity"],
           "question": "Light Year is related to"
         },
         {
@@ -760,19 +590,24 @@
         },
         {
           "correct": 2,
-          "content": [
-            "Ethiopia",
-            "Nigeria",
-            "Zambia",
-            "Chad"
-          ],
+          "content": ["Ethiopia", "Nigeria", "Zambia", "Chad"],
           "question": "Which of these African countries is situated south of the equator?"
         }
       ]
     }
   ],
-  "prise" : [
-      "$500","$2,000","$4,000","$8,000","$16,000","$32,000","$64,000","$125,000","$250,000",
-       "$500,000","$1,000,000"
+  "prise": [
+    "$500",
+    "$1000",
+    "$2,000",
+    "$4,000",
+    "$8,000",
+    "$16,000",
+    "$32,000",
+    "$64,000",
+    "$125,000",
+    "$250,000",
+    "$500,000",
+    "$1,000,000"
   ]
 }

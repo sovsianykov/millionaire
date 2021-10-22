@@ -4,6 +4,7 @@ import SideBarBtn from "./SideBarBtn";
 import { prise } from "../../config/config.json";
 
 const SideBar = ({ turn }) => {
+
   return (
     <div className={styles.sideBar}>
       {prise.map((p, i) => (

@@ -1,13 +1,26 @@
-import { CHECK_THE_ANSWER } from "./constants";
+import { CHECK_THE_ANSWER, GAME_OVER, TRY_AGAIN } from "./constants";
 
+export const checkoutAnswer = (counter) => {
+  return (dispatch) => {
+    dispatch({
+      type: CHECK_THE_ANSWER,
+      payload: counter,
+    });
+  };
+};
 
- export const checkoutAnswer = (i) => {
+export const setGameOver = () => {
+  return (dispatch) => {
+    dispatch({
+      type: GAME_OVER,
+    });
+  };
+};
 
-    return dispatch  =>   {
-        dispatch({
-        type: CHECK_THE_ANSWER,
-        payload: i
-        })
-    }
-
-}
+export const tryAgain = () => {
+  return (dispatch) => {
+    dispatch({
+      type: TRY_AGAIN,
+    });
+  };
+};
