@@ -20,9 +20,8 @@
   height: 100%;
   .handImgWrapper {
     max-width: 624px;
-    max-height: 367px ;
     overflow: hidden;
-    margin: 29% auto;
+    margin: 229px auto ;
     .handImg {
       display: block;
       width: 100%;
@@ -36,4 +35,11 @@
   position: absolute;
   width: 50%;
   height: 100%;
+  .title {
+    margin-top: 283px;
+    max-width: 624px;
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 64px;
+  }
 }

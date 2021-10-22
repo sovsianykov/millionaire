@@ -1,0 +1,20 @@
+.game {
+  display: flex;
+
+  .main {
+    width:100% ;
+    background: #F5F5F7;
+    .questionTitle {
+      max-width: 624px;
+      margin-top: 133px;
+      margin-left: 80px;
+      font-weight: 600;
+    }
+    .answersBlock {
+      margin-top: 390px;
+      width: 810px;
+      height: 176px;
+      margin-left: 80px;
+    }
+  }
+}

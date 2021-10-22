@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./GameStart.module.scss";
 import handImg from "../../assets/hand/hand1.png"
+import OrangeButton from "../../components/OrangeButton/OrangeButton";
 
 const GameStart = () => {
     return (
@@ -11,6 +12,11 @@ const GameStart = () => {
                 </div>
             </section>
             <section className={styles.rightSide}>
+                <h1 className={styles.title}>
+                    Who wants to be a millionaire ?
+                </h1>
+                <OrangeButton onClick={() =>{
+                    console.log("start")}}>Start</OrangeButton>
             </section>
             <section className={styles.inner}>
             </section>

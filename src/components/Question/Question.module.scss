@@ -1,16 +1,18 @@
 .question {
   width: 405px;
+  display: inline-block;
   height: 72px;
   cursor: pointer;
   position: relative;
   transition: .2s ease-in-out;
+  margin-bottom: 16px;
   .line {
     position: absolute;
     top: 35px;
     width: 17px;
     height: 0;
     left: 0;
-    border-bottom: 2px solid #D0D0D8;
+    border-bottom: 2px solid #E7E7EB
   }
   .line_right {
     position: absolute;
@@ -18,7 +20,7 @@
     width: 17px;
     height: 0;
     right: 0;
-    border-bottom: 2px solid #D0D0D8;
+    border-bottom: 2px solid #E7E7EB
   }
   &:hover .line,&:hover .line_right{
     border-bottom: 2px solid #FF8B37;

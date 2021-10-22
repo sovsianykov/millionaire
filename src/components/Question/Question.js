@@ -3,7 +3,8 @@ import styles from "./Question.module.scss";
 import cn from "classnames";
 import QuestionContent from "./QuestionContent";
 
-const Question = () => {
+const Question = ({title}) => {
+    console.log(title)
     const [selected, setSelected] = useState(false)
     const [correct , setCorrect] = useState(false)
 
@@ -21,7 +22,7 @@ const Question = () => {
         <div className={styles.question}>
          <div className={styles.line}/>
              <div className={classNames} onClick={onClickHandler}>
-              <QuestionContent title={"question"} letter={"A"}/>
+              <QuestionContent title={title} letter={"A"}/>
              <div className={styles.line_right}/>
          </div>
         </div>
