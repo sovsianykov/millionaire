@@ -3,7 +3,7 @@ import styles from "./Question.module.scss";
 import cn from "classnames";
 import QuestionContent from "./QuestionContent";
 
-const Question = ({title}) => {
+const Question = ({title,letter,onClick,id}) => {
     console.log(title)
     const [selected, setSelected] = useState(false)
     const [correct , setCorrect] = useState(false)
@@ -15,14 +15,14 @@ const Question = ({title}) => {
     }),[selected])
 
      const onClickHandler = useCallback(() =>{
-         setSelected(true)
-     },[setSelected])
+         onClick(id)
+     },[id])
 
     return (
         <div className={styles.question}>
          <div className={styles.line}/>
              <div className={classNames} onClick={onClickHandler}>
-              <QuestionContent title={title} letter={"A"}/>
+              <QuestionContent title={title} letter={letter}/>
              <div className={styles.line_right}/>
          </div>
         </div>
