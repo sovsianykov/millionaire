@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from "./OrangeButton.module.scss"
+import {Link} from "react-router-dom";
 
-const OrangeButton = ({children,onClick}) => {
+const OrangeButton = ({children,path}) => {
     return (
-        <div className={styles.btnBig} onClick={onClick}>
+        <Link to={path} className={styles.btnBig} >
            <div className={styles.title} >{children}</div>
-        </div>
+        </Link>
     );
 };
 

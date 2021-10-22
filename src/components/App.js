@@ -1,16 +1,16 @@
 import React from "react";
-import Question from "./Question/Question";
 import Layout from "./Layout/Layout";
-import GameStart from "../pages/GameStart/GameStart";
-import SideBar from "./SideBar/SideBar";
-import Game from "../pages/Game/Game";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routing from "../Routing/Routing";
 
 function App() {
   return (
     <div>
+      <Router>
         <Layout>
-            <Game/>
+          <Routing />
         </Layout>
+      </Router>
     </div>
   );
 }

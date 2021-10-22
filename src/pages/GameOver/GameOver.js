@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from "./GameStart.module.scss";
-import handImg from "../../assets/hand/hand1.png"
+import styles from "./GameOver.module.scss"
+import handImg from "../../assets/hand/hand1.png";
 import OrangeButton from "../../components/OrangeButton/OrangeButton";
+import TotalScore from "./TotalScore";
 
-const GameStart = () => {
+const GameOver = () => {
     return (
         <main className={styles.container}>
             <section className={styles.leftSide}>
@@ -12,15 +13,11 @@ const GameStart = () => {
                 </div>
             </section>
             <section className={styles.rightSide}>
-                <h1 className={styles.title}>
-                    Who wants to be a millionaire ?
-                </h1>
-                <OrangeButton path='/game'>Start</OrangeButton>
-            </section>
-            <section className={styles.inner}>
+                <TotalScore>{"$8,000"} earned</TotalScore>
+                <OrangeButton path='/game'>Try again</OrangeButton>
             </section>
         </main>
     );
 };
 
-export default GameStart;
+export default GameOver;
