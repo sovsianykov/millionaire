@@ -5,8 +5,8 @@ import styles from "./Answer.module.scss";
 const AnswerContent = ({title,letter}) => {
     return (
         <div className={styles.question_content}>
-           <div className={styles.question_content_letter}>{letter}</div>
-           <div className={styles.question_content_title}>{title}</div>
+           <h5 className={styles.question_content_letter}>{letter}</h5>
+           <h5 className={styles.question_content_title}>{title}</h5>
         </div>
     );
 };

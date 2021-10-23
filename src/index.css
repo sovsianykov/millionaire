@@ -1,4 +1,8 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular'), url(./assets/fonts/Inter/Inter-Regular.ttf) format('ttf');
 
+}
 body {
   margin: 0;
   padding: 0;
@@ -18,6 +22,7 @@ code {
 h1,h2,h3,h4,h5,h6 {
   padding: 0;
   margin: 0;
+  font-family: "Inter-Regular",sans-serif;
 }
 a {
   text-decoration: none;

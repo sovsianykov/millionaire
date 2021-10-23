@@ -64,6 +64,7 @@
   }
 }
 .question_content {
+  font-family: "Inter-Regular",sans-serif;
   width: 309px;
   height: 72px;
   display: flex;
@@ -71,14 +72,14 @@
   justify-content: flex-start;
   margin-left: 30px;
   &_letter {
-    font-family: "Inter ",sans-serif;
+    font-family: "Inter-Regular",sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #FF8B37;
     margin-bottom: 4px;
   }
   &_title {
-    font-family: "Inter ",sans-serif;
+    font-family: "Inter-Regular",sans-serif;
     font-size: 20px;
     margin-left: 8px;
     line-height: 20px;
