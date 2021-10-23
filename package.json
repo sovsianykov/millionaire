@@ -1,7 +1,6 @@
 {
   "name": "millionaire",
-
-
+   "homepage": "https://sovsianykov.github.io/millionaire/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
