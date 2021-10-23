@@ -22,7 +22,6 @@ const Answer = ({ title, letter, onClick, id, correct }) => {
   );
 
   const onClickHandler = useCallback(() => {
-
     onClick(id);
     setActive(true);
   }, [id, setActive,onClick]);

@@ -3,18 +3,18 @@ import styles from "./Game.module.scss";
 import Answer from "../../components/Answers/Answer";
 import { useDispatch } from "react-redux";
 import { checkoutAnswer, setGameOver } from "../../redux/actions";
-import Claps from "../../assets/audio/winnerClaps.mp3";
+import Sound from "../../utils/audio";
+import { letters } from "../../config/config.json"
 
-const letters = ["A", "B", "C", "D"];
+
 
 const AnswersBlock = ({ question, correct }) => {
   const dispatch = useDispatch();
-  const audio = new Audio(Claps);
   const checkOut = (id) => {
     if (id !== correct) {
       return dispatch(setGameOver());
     }
-    audio.play();
+    Sound.playWinner()
     setTimeout(() => {
       dispatch(checkoutAnswer());
     }, 1000);
