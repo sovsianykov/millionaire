@@ -4,7 +4,7 @@
   height: 72px;
   cursor: pointer;
   position: relative;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   margin-bottom: 16px;
   @media screen and (max-width: 470px) {
     width: 322px;
@@ -18,51 +18,54 @@
     width: 17px;
     height: 0;
     left: 0;
-    border-bottom: 2px solid #E7E7EB;
+    border-bottom: 2px solid #e7e7eb;
     @media screen and (max-width: 470px) {
-    width: 17px;
+      width: 17px;
       top: 27px;
-  }}
+    }
+  }
   .line_right {
     position: absolute;
     top: 35px;
     width: 17px;
     height: 0;
     right: 0;
-    border-bottom: 2px solid #E7E7EB;
+    border-bottom: 2px solid #e7e7eb;
     @media screen and (max-width: 470px) {
       width: 17px;
       top: 27px;
+    }
   }
-  }
-  &:hover .line,&:hover .line_right{
-    border-bottom: 2px solid #FF8B37;
+  &:hover .line,
+  &:hover .line_right {
+    border-bottom: 2px solid #ff8b37;
   }
 
   &_inactive {
     margin-left: 17px;
-    background: url("../../assets/buttonInactive.png") ;
+    background: url("../../assets/buttonInactive.png");
     width: 372px;
     height: 100%;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
     @media screen and (max-width: 470px) {
       background: url("../../assets/buttonInactiveMobile.png");
       width: 288px;
-      background-size:cover ;
+      background-size: cover;
     }
     &:hover {
       background: url("../../assets/buttonHover.png");
     }
   }
 
-  &_selected ,&_selected:hover {
+  &_selected,
+  &_selected:hover {
     background: url("../../assets/buttonSelected.png");
     width: 372px;
     margin-left: 17px;
     height: 100%;
     @media screen and (max-width: 470px) {
       width: 288px;
-      background-size:cover ;
+      background-size: cover;
     }
   }
   &_correct {
@@ -73,11 +76,14 @@
     @media screen and (max-width: 470px) {
       width: 288px;
       background: url("../../assets/buttonCorrectMobile.png");
-      background-size:cover ;
+      background-size: cover;
+      &:hover {
+        background: url("../../assets/buttonCorrectMobile.png");
+      }
     }
-    //&:hover {
-    //  background: url("../../assets/buttonCorrect.png");
-    //}
+    &:hover {
+      background: url("../../assets/buttonCorrect.png");
+    }
   }
   &_wrong {
     margin-left: 17px;
@@ -87,7 +93,10 @@
     @media screen and (max-width: 470px) {
       background: url("../../assets/buttonWrongMobile.png");
       width: 288px;
-      background-size:cover ;
+      background-size: cover;
+      &:hover {
+        background: url("../../assets/buttonWrongMobile.png");
+      }
     }
     &:hover {
       background: url("../../assets/buttonWrong.png");
@@ -100,23 +109,28 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-left: 30px;   @media screen and (max-width: 470px) {
-  width: 216px;
-}
+  margin-left: 30px;
+  @media screen and (max-width: 470px) {
+    width: 216px;
+  }
   &_letter {
-    font-family: "Inter-Regular",sans-serif;
+    font-family: "Inter-Regular", sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: #FF8B37;
+    color: #ff8b37;
     margin-bottom: 4px;
   }
   &_title {
-    font-family: "Inter-Regular",sans-serif;
+    font-family: "Inter-Regular", sans-serif;
     font-size: 14px;
     margin-left: 8px;
-    line-height: 16px;
+    line-height: 20px;
     margin-bottom: 4px;
     font-weight: normal;
     color: #020100;
+    @media screen and (max-width: 470px) {
+      width: 216px;
+      line-height: 20px;
+    }
   }
 }
