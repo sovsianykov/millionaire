@@ -12,6 +12,7 @@ const GameOver = () => {
 
   const { turn } = useSelector((state) => state.answerReducer);
   const onClickHandler = () => {
+      console.log('try')
     dispatch(tryAgain());
   };
 
@@ -24,7 +25,7 @@ const GameOver = () => {
       </section>
       <section className={styles.rightSide} onClick={onClickHandler}>
         <TotalScore>{prise[turn - 1]} earned</TotalScore>
-        <OrangeButton path="/game">Try again</OrangeButton>
+        <OrangeButton  path="/game">Try again</OrangeButton>
       </section>
     </main>
   );
