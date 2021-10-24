@@ -6,21 +6,34 @@
   position: relative;
   transition: .2s ease-in-out;
   margin-bottom: 16px;
+  @media screen and (max-width: 470px) {
+    width: 322px;
+    display: block;
+    margin: 2px auto;
+    height: 56px;
+  }
   .line {
     position: absolute;
     top: 35px;
     width: 17px;
     height: 0;
     left: 0;
-    border-bottom: 2px solid #E7E7EB
-  }
+    border-bottom: 2px solid #E7E7EB;
+    @media screen and (max-width: 470px) {
+    width: 17px;
+      top: 27px;
+  }}
   .line_right {
     position: absolute;
     top: 35px;
     width: 17px;
     height: 0;
     right: 0;
-    border-bottom: 2px solid #E7E7EB
+    border-bottom: 2px solid #E7E7EB;
+    @media screen and (max-width: 470px) {
+      width: 17px;
+      top: 27px;
+  }
   }
   &:hover .line,&:hover .line_right{
     border-bottom: 2px solid #FF8B37;
@@ -28,13 +41,17 @@
 
   &_inactive {
     margin-left: 17px;
-    background: url("../../assets/buttonInactive.png");
+    background: url("../../assets/buttonInactive.png") ;
     width: 372px;
     height: 100%;
     transition: .2s ease-in-out;
+    @media screen and (max-width: 470px) {
+      background: url("../../assets/buttonInactiveMobile.png");
+      width: 288px;
+      background-size:cover ;
+    }
     &:hover {
       background: url("../../assets/buttonHover.png");
-
     }
   }
 
@@ -43,14 +60,23 @@
     width: 372px;
     margin-left: 17px;
     height: 100%;
+    @media screen and (max-width: 470px) {
+      width: 288px;
+      background-size:cover ;
+    }
   }
   &_correct {
     margin-left: 17px;
     background: url("../../assets/buttonCorrect.png");
     width: 372px;
     height: 100%;
+    @media screen and (max-width: 470px) {
+      width: 288px;
+      background: url("../../assets/buttonCorrectMobile.png");
+      background-size:cover ;
+    }
     &:hover {
-      background: url("../../assets/buttonCorrect.png");
+      background: url("../../assets/buttonCorrectMobile.png");
     }
   }
   &_wrong {
@@ -58,6 +84,11 @@
     background: url("../../assets/buttonWrong.png");
     width: 372px;
     height: 100%;
+    @media screen and (max-width: 470px) {
+      background: url("../../assets/buttonWrongMobile.png");
+      width: 288px;
+      background-size:cover ;
+    }
     &:hover {
       background: url("../../assets/buttonWrong.png");
     }
@@ -69,7 +100,9 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-left: 30px;
+  margin-left: 30px;   @media screen and (max-width: 470px) {
+  width: 216px;
+}
   &_letter {
     font-family: "Inter-Regular",sans-serif;
     font-size: 20px;
@@ -79,9 +112,9 @@
   }
   &_title {
     font-family: "Inter-Regular",sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 8px;
-    line-height: 20px;
+    line-height: 16px;
     margin-bottom: 4px;
     font-weight: normal;
     color: #020100;
