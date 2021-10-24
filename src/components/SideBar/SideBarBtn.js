@@ -3,12 +3,7 @@ import styles from "./SideBarBtn.module.scss";
 import useButtonStyles from "./useButtonStyles";
 
 const SideBarBtn = ({ wining, children, passed }) => {
-  const {
-      classNames,
-      cnLineLeft,
-      cnText,
-      cnLineRight
-  } = useButtonStyles(
+  const { classNames, cnLineLeft, cnText, cnLineRight } = useButtonStyles(
     wining,
     passed
   );

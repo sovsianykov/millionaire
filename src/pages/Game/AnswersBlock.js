@@ -4,7 +4,7 @@ import Answer from "../../components/Answers/Answer";
 import { useDispatch } from "react-redux";
 import { checkoutAnswer, setGameOver } from "../../redux/actions";
 import Sound from "../../utils/audio";
-import { letters } from "../../config/config.json"
+import { letters } from "../../config/config.json";
 
 const AnswersBlock = ({ question, correct }) => {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ const AnswersBlock = ({ question, correct }) => {
     if (id !== correct) {
       return dispatch(setGameOver());
     }
-    Sound.playWinner()
+    Sound.playWinner();
     setTimeout(() => {
       dispatch(checkoutAnswer());
     }, 1000);
