@@ -1,43 +1,16 @@
-import React, { memo, useMemo } from "react";
+import React, { memo } from "react";
 import styles from "./SideBarBtn.module.scss";
-import cn from "classnames";
+import useButtonStyles from "./useButtonStyles";
 
 const SideBarBtn = ({ wining, children, passed }) => {
-  const classNames = useMemo(
-    () =>
-      cn({
-        [styles.moneyWin_inactive]: true,
-        [styles.moneyWin_wining]: wining,
-      }),
-    [wining]
-  );
-
-  const cnLineLeft = useMemo(
-    () =>
-      cn({
-        [styles.line_left]: true,
-        [styles.line_left_wining]: wining,
-      }),
-    [wining]
-  );
-
-  const cnLineRight = useMemo(
-    () =>
-      cn({
-        [styles.line_right]: true,
-        [styles.line_right_wining]: wining,
-      }),
-    [wining]
-  );
-
-  const cnText = useMemo(
-    () =>
-      cn({
-        [styles.money_content_title]: true,
-        [styles.money_content_title_wining]: wining,
-        [styles.money_content_title_passed]: passed,
-      }),
-    [passed, wining]
+  const {
+      classNames,
+      cnLineLeft,
+      cnText,
+      cnLineRight
+  } = useButtonStyles(
+    wining,
+    passed
   );
 
   return (
