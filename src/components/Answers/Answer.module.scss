@@ -51,6 +51,9 @@
       background: url("../../assets/buttonInactiveMobile.png");
       width: 288px;
       background-size: cover;
+      &:hover {
+        background: url("../../assets/buttonInactiveMobile.png");
+      }
     }
     &:hover {
       background: url("../../assets/buttonHover.png");
@@ -73,6 +76,9 @@
     background: url("../../assets/buttonCorrect.png");
     width: 372px;
     height: 100%;
+    &:hover {
+      background: url("../../assets/buttonCorrect.png");
+    }
     @media screen and (max-width: 470px) {
       width: 288px;
       background: url("../../assets/buttonCorrectMobile.png");
@@ -80,9 +86,7 @@
         background: url("../../assets/buttonCorrectMobile.png");
       }
     }
-    &:hover {
-      background: url("../../assets/buttonCorrect.png");
-    }
+
   }
   &_wrong {
     margin-left: 17px;

@@ -18,7 +18,6 @@ const Game = () => {
     return <GameOver />;
   }
 
-
   return (
     <div className={styles.game}>
       <main className={styles.main}>

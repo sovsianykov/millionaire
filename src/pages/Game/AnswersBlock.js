@@ -6,8 +6,6 @@ import { checkoutAnswer, setGameOver } from "../../redux/actions";
 import Sound from "../../utils/audio";
 import { letters } from "../../config/config.json"
 
-
-
 const AnswersBlock = ({ question, correct }) => {
   const dispatch = useDispatch();
   const checkOut = (id) => {
