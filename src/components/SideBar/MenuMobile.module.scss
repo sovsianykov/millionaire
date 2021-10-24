@@ -1,0 +1,13 @@
+.menuMobile {
+  width: 100%;
+  margin-top: 4vh;
+  height: 96vh;
+  margin-left: auto;
+  background: #F5F5F7;
+  display: none;
+  flex-direction: column-reverse;
+  justify-content: center;
+  @media screen and (max-width: 470px) {
+    display: flex;
+  }
+}

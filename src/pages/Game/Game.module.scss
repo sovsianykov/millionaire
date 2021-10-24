@@ -1,6 +1,17 @@
 .game {
   display: flex;
-
+  .menuIconWrapper {
+    display: none;
+    width: 16px;
+    height: 14px;
+    margin: 0 10px 10px auto;
+    .icon {
+      width: 100%;
+    }
+    &_Show {
+      display: block;
+    }
+  }
   .main {
     width:100% ;
     background: #F5F5F7;
@@ -23,17 +34,30 @@
   .game {
     display: block;
     height: 100vh;
+    .menuIconWrapper {
+      display: block;
+      width: 16px;
+      height: 14px;
+      margin: 0 10px 10px auto;
+      .icon {
+        width: 100%;
+      }
+      &_Show {
+        display: block;
+      }
+    }
     .main {
       width: 100vw;
       background: #F5F5F7;
       height: 100vh;
       margin: 0;
-      padding: 0;
+      padding-top: 10px;
       .questionTitle {
         position: absolute;
         top: 60px;
         margin: 0;
         padding: 0 20px;
+        height: auto;
         //padding: 20px;
         text-align: center;
         font-weight: 600;
